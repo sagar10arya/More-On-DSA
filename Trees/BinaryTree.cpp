@@ -31,6 +31,7 @@ node* buildTree(node* root){
     return root;
 }
 
+// Breadth First Search
 void levelOrderTraversal(node* root){
     queue<node*> q;
     q.push(root);
