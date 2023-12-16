@@ -29,7 +29,7 @@ class Solution {
         pair<int,int> right = diameterFast(root->right);
         
         int op1 = left.first;
-        int op2 = left.second;
+        int op2 = right.first;
         int op3 = left.second + right.second + 1;
         
         pair<int,int> ans;
